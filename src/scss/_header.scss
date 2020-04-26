@@ -1,0 +1,197 @@
+.header .top-header{
+  background: #0A294E;
+}
+
+.header .container{
+  max-width: 1170px;
+  padding: 0px 15px 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.top-header .navigation-list{
+  list-style: none;
+  display: flex;
+  margin-bottom: 22px;
+  padding: 0;
+  li{
+    margin-right: 60px;
+    a{
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Maven Pro', Sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      transition: all 0.4s ease;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  li:last-child{
+    margin-right: 0;
+  }
+}
+
+.top-header .account-list{
+  list-style: none;
+  display: flex;
+  margin-bottom: 22px;
+  padding: 0;
+  li{
+    margin-left: 60px;
+    i{
+      color: #f00;
+      font-size: 14px;
+      margin-right: 14px;
+    }
+    a{
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Maven Pro', Sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      transition: all .4s ease;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  li:first-child{
+    margin-left: 0;
+  }
+}
+
+
+.header .center-header{
+  background: #021A37;
+  padding: 22px 0;
+}
+
+.logo img{
+  max-height: 99px;
+  width: 100%;
+}
+
+.form-holder{
+  flex-basis: 437px;
+  .search-form{
+    width: 100%;
+    position: relative;
+    input{
+      width: 100%;
+      border: none;
+      background: #021A37;
+      outline: none;
+      border-bottom: 1px solid #fff;
+      color: #989898;
+      line-height: 18px;
+    }
+    .search-btn{
+      position: absolute;
+      bottom: 1px;
+      right: 0;
+      padding: 0;
+      margin: 0;
+      border: none;
+      background: #021A37;
+      outline: none;
+      color: #ffffff;
+      font-size: 20px;
+    }
+  }
+}
+
+.center-header .icon-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  li{
+    margin-right: 49px;
+    a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+
+.center-header .cart-link{
+  text-decoration: none;
+  color: #ffffff;
+  background: #0A294E;
+  border-radius: 5px;
+  padding: 14px 17px 6px 17px;
+  .cart-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    line-height: 30px;
+    li{
+      margin-right: 30px;
+    }
+    li:first-child{
+      font-size: 20px;
+    }
+  }
+}
+
+.bottom-header {
+  padding: 13px 0 15px 0;
+  background: #ffffff;
+}
+.container .bottom-navigation{
+  min-width: 100%;
+}
+.bottom-header .bottom-nav-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Maven Pro', Sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  li:first-child{
+    padding: 15px 0 15px 60px;
+    background: url("../images/tent.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  li:nth-child(2){
+    padding: 15px 0 15px 60px;
+    background: url("../images/mountain.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  li:nth-child(3){
+    padding: 15px 0 15px 60px;
+    background: url("../images/swimming-pool.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  li:nth-child(4){
+    padding: 15px 0 15px 60px;
+    background: url("../images/snowboard.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+}

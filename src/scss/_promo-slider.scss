@@ -1,0 +1,36 @@
+.promo-slider{
+  position: relative;
+}
+
+.promo-slider__slide{
+  position: relative;
+}
+.promo-slider__text-box{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Hind', Sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  max-height: 100%;
+  padding: 10px;
+  .discount{
+    font-size: 144px;
+  }
+  .object-of-discount{
+    font-size: 24px;
+    margin-bottom: 31px;
+  }
+  .discount-btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #F75555;
+    border-radius: 5px;
+    padding: 10px 47px;
+  }
+}

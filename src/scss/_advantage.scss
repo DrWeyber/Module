@@ -1,0 +1,54 @@
+.advantage {
+  color: #486175;
+  font-size: 18px;
+  font-family: "Maven Pro", sans-serif;
+  padding: 86px 0 ;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 -15px
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: 0 15px 15px 15px;
+  }
+
+  &__ico {
+    i {
+      font-size: 37px;
+      margin-right: 14px;
+    }
+  }
+}
+
+@media (max-width: 1034px) {
+  .advantage {
+
+    &__item {
+      margin: 0 0 15px 0;
+      flex-basis: 50%;
+      padding-left: 10%;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+  .advantage{
+    padding: 26px 0;
+
+    &__list {
+      flex-direction: column;
+    }
+
+    &__item {
+      padding-left: 10%;
+    }
+  }
+}

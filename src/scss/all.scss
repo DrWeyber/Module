@@ -1,0 +1,44 @@
+@import "_reset";
+@import "_header";
+@import "promo-slider";
+@import "advantage";
+@import "_footer";
+@import "icons";
+@import "slick";
+
+html,body {
+  height: 100%;
+}
+
+body{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background: #f2f2f2;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.container{
+  max-width: 1170px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+
+.main {
+  flex: 1 0 auto;
+}
+
+img{
+  display: block;
+ max-width: 100%;
+  height: auto;
+}
+

@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?9lk04z');
+  src:  url('../fonts/icomoon.eot?9lk04z#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?9lk04z') format('truetype'),
+  url('../fonts/icomoon.woff?9lk04z') format('woff'),
+  url('../fonts/icomoon.svg?9lk04z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-collect:before {
+  content: "\e906";
+}
+.icon-work:before {
+  content: "\e906";
+}
+.icon-pack:before {
+  content: "\e906";
+}
+.icon-grab:before {
+  content: "\e906";
+}
+.icon-travel:before {
+  content: "\e906";
+}
+.icon-select:before {
+  content: "\e906";
+}
+.icon-fill:before {
+  content: "\e906";
+}
+.icon-grid:before {
+  content: "\e907";
+}
+.icon-apps:before {
+  content: "\e907";
+}
+.icon-squares:before {
+  content: "\e907";
+}
+.icon-blocks:before {
+  content: "\e907";
+}
+.icon-award-fill:before {
+  content: "\e905";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-bubble2:before {
+  content: "\e96e";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-target:before {
+  content: "\e9b3";
+}
+.icon-shield:before {
+  content: "\e9b4";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-home-outline:before {
+  content: "\e900";
+}
+.icon-headphones:before {
+  content: "\e901";
+}
+.icon-news:before {
+  content: "\e908";
+}
+.icon-paper:before {
+  content: "\e908";
+}
+.icon-truck:before {
+  content: "\e902";
+}
+.icon-transport:before {
+  content: "\e902";
+}
+.icon-transaction:before {
+  content: "\e902";
+}
+.icon-shipping:before {
+  content: "\e902";
+}
+.icon-medal:before {
+  content: "\e903";
+}
+.icon-sale:before {
+  content: "\e909";
+}
+.icon-justice:before {
+  content: "\e904";
+}
