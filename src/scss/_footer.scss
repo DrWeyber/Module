@@ -23,6 +23,10 @@
 
   &__logo {
     align-self: flex-start;
+
+    img {
+      margin: 0 auto;
+    }
   }
 }
 
@@ -190,7 +194,7 @@
 
 @media (max-width: 320px) {
 
-  .container {
+  .footer .container {
     flex-direction: column;
   }
 
