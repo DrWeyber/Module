@@ -1,11 +1,10 @@
-@import "reset";
-@import "header";
+@import "_reset";
+@import "_header";
 @import "promo-slider";
+@import "advantage";
+@import "_footer";
 @import "icons";
 @import "slick";
-@import "subscribe";
-@import "advantage";
-@import "footer";
 
 html,body {
   height: 100%;
@@ -42,4 +41,6 @@ img{
  max-width: 100%;
   height: auto;
 }
+
+
 
