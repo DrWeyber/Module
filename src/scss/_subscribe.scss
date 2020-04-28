@@ -58,4 +58,9 @@
       margin-right: 56px;
     }
   }
+
+  &__pic {
+    width: 100%;
+    object-fit: contain;
+  }
 }
