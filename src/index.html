@@ -1,249 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ВояЖ</title>
-  <link href="css/all.css" rel="stylesheet">
-  <link
-      href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Maven+Pro:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap"
-      rel="stylesheet">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta charset="UTF-8">
+    <title>ВояЖ</title>
+    <link href="css/all.css" rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Maven+Pro:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+            rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 <body>
 <div class="wrapper">
-  <header class="header">
-    <div class="top-header">
-      <div class="container">
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li><a href="#">О магазине</a></li>
-            <li><a href="#">Покупателю</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a class="active" href="#">Акции</a></li>
-          </ul>
-        </nav>
-        <ul class="account-list">
-          <li> <i class="icon-target"></i><a href="#">Отследить заказ</a></li>
-          <li> <i class="icon-user"></i><a href="#">Ваш аккаунт</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="center-header">
-      <div class="container">
-        <span class="menu-opener"></span>
-        <div class="burger-menu" id="burger">
-          <header class="burger-menu__header">
-            <strong class="logo"><img src="images/logo.png" alt="Вояж"></strong>
-            <ul class="sign-up-list">
-              <li><a href="#">Вход</a></li>
-              <li><a href="#">Регистрация</a></li>
-            </ul>
-          </header>
-         <div class="burger-menu-main-part">
-           <ul class="burger-menu__main-list">
-             <li><i class="icon-home-outline"></i><a href="#">Главная</a></li>
-             <li><i class="icon-squares"></i><a href="#">Каталог товаров</a></li>
-             <li><i class="icon-heart"></i><a href="#">Избранное</a><span class="chosen-amount"></span></li>
-             <li><i class="icon-justice"></i><a href="#">Сравнение товаров</a><span class="chosen-amount"></span></li>
-             <li><i class="icon-cart"></i><a href="#">Корзина</a>span.chosen-amount</li>
-             <li><i class="icon-target"></i><a href="#">Отследить заказ</a></li>
-           </ul>
-           <ul class="burger-menu__about-list">
-             <li><i class="icon-pack"></i><a href="#">О магазине</a></li>
-             <li><i class="icon-paper"></i><a href="#">Покупателю</a></li>
-             <li><i class="icon-news"></i><a href="#">Новости</a></li>
-             <li><i class="icon-sale"></i><a href="#">Акции</a></li>
-           </ul>
-           <ul class="burger-menu__contacts-list">
-             <li><a href="tel:+380567670704">+38(056)767-07-04</a></li>
-             <li><a href="tel:+380673788777">+38(067)37-88-777</a></li>
-           </ul>
-         </div>
+    <main class="main">
+        <div class="subscribe">
+            <div class="container">
+                <div class="subscribe__promo">
+                    <p>
+                      <span class="subscribe__promo__discount">
+                         -10%
+                      </span>
+                        на первую покупку!
+                    </p>
+                    <span class="subscribe__promo__desc">
+                        При подписке на рассылку новинок и акционных товаров
+                    </span>
+                </div>
+                <div class="subscribe__sub">
+                    <form action="#" class="subscribe__form">
+                        <div class="subscribe__input-wrapper">
+                            <input placeholder="Имя" type="text">
+                        </div>
+                        <div class="subscribe__input-wrapper">
+                            <input placeholder="Эл. почта" type="email">
+                        </div>
+                    </form>
+                    <a class="button" href="#">
+                        Подписаться
+                    </a>
+                </div>
+            </div>
+            <img alt="..." class="subscribe__pic" src="images/subs-mountain.png">
         </div>
-        <strong class="logo">
-          <img src="images/logo.png" alt="Вояж">
-        </strong>
-        <div class="form-holder">
-          <form action="" class="search-form">
-            <input type="text" placeholder="Я ищу...">
-            <button class="search-btn"><i class=" icon-search"></i></button>
-          </form>
+        <div class="advantage">
+            <div class="container">
+                <ul class="advantage__list">
+                    <li class="advantage__item">
+                        <div class="advantage__ico">
+                            <i class="icon-shield"></i>
+                        </div>
+                        <div class="advantage__text">
+                            <span>5 лет опыта работы</span>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__ico">
+                            <i class="icon-medal"></i>
+                        </div>
+                        <div class="advantage__text">
+                            <span>Гарантия качества</span>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__ico">
+                            <i class="icon-truck"></i>
+                        </div>
+                        <div class="advantage__text">
+                            <span>Быстрая доставка</span>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__ico">
+                            <i class="icon-headphones"></i>
+                        </div>
+                        <div class="advantage__text">
+                            <span>Консультация специалистов</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <ul class="icon-list">
-          <li><a href="#"><i class=" icon-justice"></i></a></li>
-          <li><a href="#"><i class=" icon-heart"></i></a></li>
-        </ul>
-        <a href="#" class="cart-link">
-          <ul class="cart-list">
-            <li><i class=" icon-cart"></i></li>
-            <li><span>4345 грн.</span></li>
-          </ul>
-        </a>
-      </div>
-    </div>
-    <div class="bottom-header">
-      <div class="container">
-        <nav class="bottom-navigation">
-          <ul class="bottom-nav-list">
-            <li><a href="#">Туризм</a></li>
-            <li><a href="#">Альпинизм</a></li>
-            <li><a href="#">Водный туризм</a></li>
-            <li><a href="#">Зимний спорт</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <main class="main">
-    <div class="promo-slider">
-      <div class="promo-slider__slide">
-        <div class="promo-slider__text-box"><span class="discount">-10%</span><span class="object-of-discount">на все рюкзаки OUTDOOR LOCAL LION</span><a
-            href="#" class="discount-btn">Купить выгодно</a></div>
-        <img src="images/sliderimg.png" alt="" class="slider-img"></div>
-      <div class="promo-slider__slide">
-        <div class="promo-slider__text-box"><span class="discount">-10%</span><span class="object-of-discount">на все рюкзаки OUTDOOR LOCAL LION</span><a
-            href="#" class="discount-btn">Купить выгодно</a></div>
-        <img src="images/sliderimg.png" alt="" class="slider-img"></div>
-      <div class="promo-slider__slide">
-        <div class="promo-slider__text-box"><span class="discount">-10%</span><span class="object-of-discount">на все рюкзаки OUTDOOR LOCAL LION</span><a
-            href="#" class="discount-btn">Купить выгодно</a></div>
-        <img src="images/sliderimg.png" alt="" class="slider-img"></div>
-      <div class="promo-slider__slide">
-        <div class="promo-slider__text-box"><span class="discount">-10%</span><span class="object-of-discount">на все рюкзаки OUTDOOR LOCAL LION</span><a
-            href="#" class="discount-btn">Купить выгодно</a></div>
-        <img src="images/sliderimg.png" alt="" class="slider-img"></div>
-      <div class="promo-slider__slide">
-        <div class="promo-slider__text-box"><span class="discount">-10%</span><span class="object-of-discount">на все рюкзаки OUTDOOR LOCAL LION</span><a
-            href="#" class="discount-btn">Купить выгодно</a></div>
-        <img src="images/sliderimg.png" alt="" class="slider-img"></div>
-      <div class="promo-slider__slide">
-        <div class="promo-slider__text-box"><span class="discount">-10%</span><span class="object-of-discount">на все рюкзаки OUTDOOR LOCAL LION</span><a
-            href="#" class="discount-btn">Купить выгодно</a></div>
-        <img src="images/sliderimg.png" alt="" class="slider-img"></div>
-    </div>
-    <div class="slider2"></div>
-    <div class="gallery"></div>
-    <div class="recommend"></div>
-    <div class="news"></div>
-    <div class="subscribe"></div>
-    <div class="advantage">
-      <div class="container">
-        <ul class="advantage__list">
-          <li class="advantage__item">
-            <div class="advantage__ico">
-              <i class="icon-shield"></i>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__logo footer__column">
+                <img alt="Logotype of site" src="images/logo.png">
             </div>
-            <div class="advantage__text">
-              <span>5 лет опыта работы</span>
+            <div class="footer__navigation footer__column">
+                <h4>Навигация</h4>
+                <ul class="footer__navigation__list">
+                    <li class="footer__navigation__item">
+                        <a class="footer__navigation__link" href="#">
+                            О магазине
+                        </a>
+                    </li>
+                    <li class="footer__navigation__item">
+                        <a class="footer__navigation__link" href="#">
+                            Покупателю
+                        </a>
+                    </li>
+                    <li class="footer__navigation__item">
+                        <a class="footer__navigation__link" href="#">
+                            Новости
+                        </a>
+                    </li>
+                    <li class="footer__navigation__item">
+                        <a class="footer__navigation__link" href="#">
+                            Акции
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </li>
-          <li class="advantage__item">
-            <div class="advantage__ico">
-              <i class="icon-medal"></i>
+            <div class="footer__categories footer__column">
+                <h4>Категории товаров</h4>
+                <ul class="footer__categories__list">
+                    <li class="footer__categories__item">
+                        <a class="footer__categories__link" href="#">
+                            Туризм
+                        </a>
+                    </li>
+                    <li class="footer__categories__item">
+                        <a class="footer__categories__link" href="#">
+                            Альпинизм
+                        </a>
+                    </li>
+                    <li class="footer__categories__item">
+                        <a class="footer__categories__link" href="#">
+                            Водный туризм
+                        </a>
+                    </li>
+                    <li class="footer__categories__item">
+                        <a class="footer__categories__link" href="#">
+                            Зимний спорт
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="advantage__text">
-              <span>Гарантия качества</span>
+            <div class="footer__payments footer__column">
+                <h4>Мы принимаем</h4>
+                <div class="footer__payments__list">
+                    <a href="#"><img alt="Visa payment" src="images/visa-checkout.png"></a>
+                    <a href="#"><img alt="mastercard payment" src="images/mastercard.png"></a>
+                    <a href="#"><img alt="PrivateBank payment" src="images/privat24.png"></a>
+                    <a href="#"><img alt="WebMoney payment" src="images/webmoney.png"></a>
+                </div>
             </div>
-          </li>
-          <li class="advantage__item">
-            <div class="advantage__ico">
-              <i class="icon-truck"></i>
+            <div class="footer__contacts footer__column">
+                <h4>Контакты</h4>
+                <div class="footer__contacts__numbers">
+                    <a href="tel:+380567670704">+38 (056) 767-07-04</a>
+                    <a href="tel:+380673788777">+38 (067) 37-88-777</a>
+                </div>
+                <div class="footer__contacts__socials">
+                    <a href="#"><i class="icon-facebook2"></i></a>
+                    <a href="#"><i class="icon-twitter"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                </div>
             </div>
-            <div class="advantage__text">
-              <span>Быстрая доставка</span>
-            </div>
-          </li>
-          <li class="advantage__item">
-            <div class="advantage__ico">
-              <i class="icon-headphones"></i>
-            </div>
-            <div class="advantage__text">
-              <span>Консультация специалистов</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__logo footer__column">
-        <img alt="Logotype of site" src="images/logo.png">
-      </div>
-      <div class="footer__navigation footer__column">
-        <h4>Навигация</h4>
-        <ul class="footer__navigation__list">
-          <li class="footer__navigation__item">
-            <a class="footer__navigation__link" href="#">
-              О магазине
-            </a>
-          </li>
-          <li class="footer__navigation__item">
-            <a class="footer__navigation__link" href="#">
-              Покупателю
-            </a>
-          </li>
-          <li class="footer__navigation__item">
-            <a class="footer__navigation__link" href="#">
-              Новости
-            </a>
-          </li>
-          <li class="footer__navigation__item">
-            <a class="footer__navigation__link" href="#">
-              Акции
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__categories footer__column">
-        <h4>Категории товаров</h4>
-        <ul class="footer__categories__list">
-          <li class="footer__categories__item">
-            <a class="footer__categories__link" href="#">
-              Туризм
-            </a>
-          </li>
-          <li class="footer__categories__item">
-            <a class="footer__categories__link" href="#">
-              Альпинизм
-            </a>
-          </li>
-          <li class="footer__categories__item">
-            <a class="footer__categories__link" href="#">
-              Водный туризм
-            </a>
-          </li>
-          <li class="footer__categories__item">
-            <a class="footer__categories__link" href="#">
-              Зимний спорт
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__payments footer__column">
-        <h4>Мы принимаем</h4>
-        <div class="footer__payments__list">
-          <a href="#"><img alt="Visa payment" src="images/visa-checkout.png"></a>
-          <a href="#"><img alt="mastercard payment" src="images/mastercard.png"></a>
-          <a href="#"><img alt="PrivateBank payment" src="images/privat24.png"></a>
-          <a href="#"><img alt="WebMoney payment" src="images/webmoney.png"></a>
         </div>
-      </div>
-      <div class="footer__contacts footer__column">
-        <h4>Контакты</h4>
-        <div class="footer__contacts__numbers">
-          <a href="tel:+380567670704">+38 (056) 767-07-04</a>
-          <a href="tel:+380673788777">+38 (067) 37-88-777</a>
-        </div>
-        <div class="footer__contacts__socials">
-          <a href="#"><i class="icon-facebook2"></i></a>
-          <a href="#"><i class="icon-twitter"></i></a>
-          <a href="#"><i class="icon-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </div>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/slick.min.js"></script>
