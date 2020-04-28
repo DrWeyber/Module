@@ -7,93 +7,30 @@
 }
 .promo-slider__text-box{
   position: absolute;
-  top: 19%;
-  left: 59%;
+  top: 0;
+  bottom: 0;
+  left: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   font-family: 'Hind', Sans-serif;
   font-style: normal;
   font-weight: bold;
+  max-height: 100%;
+  padding: 10px;
   .discount{
-    font-size: 10vw;
+    font-size: 144px;
   }
   .object-of-discount{
-    font-size: 1.8vw;
+    font-size: 24px;
     margin-bottom: 31px;
   }
   .discount-btn{
-    font-size: 1.2vw;
-    letter-spacing: 1.7px;
-    font-weight: 400;
+    font-size: 18px;
     text-decoration: none;
     color: #ffffff;
     background: #F75555;
     border-radius: 5px;
-    padding: 1.2vw 2.9vw;
-    transition: all .3s ease;
-    &:hover{
-      color:#F75555;
-      background: #ffffff;
-    }
-  }
-}
-
-.slick-arrow{
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 50px;
-  background: none;
-  border: none;
-  font-size: 0;
-  outline: none;
-  &:before{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%) rotate(-135deg);
-      content: "";
-      border-top: 1px solid #fff;
-      border-right: 1px solid #fff;
-      height: 18px;
-      width: 18px;
-    }
-}
-
-.slick-next{
-  right: 50px;
-  left: auto;
-  &:before{
-    transform: rotate(45deg);
-  }
-}
-
-.slick-dots{
-  position: absolute;
-  bottom: 19%;
-  left: 59%;
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  li{
-    margin-right: 7px;
-    width: 2.4vw;
-    height: 10px;
-    border-radius: 5px;
-    background: rgba(231, 235, 236, 0.8);
-    button{
-      width: 100%;
-      height: 10px;
-      font-size: 0;
-      background: none;
-      border: none;
-    }
-  }
-  .slick-active{
-    background: #F75555;
+    padding: 10px 47px;
   }
 }
